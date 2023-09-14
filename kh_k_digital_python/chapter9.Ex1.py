@@ -2,7 +2,7 @@
 # 원하는 작업 : 나흘 동안 메뉴당 전체 판매량과 하루 판매량 구하기.
 
 # 파일 읽기.
-file_name = "스타벅스일일매출.txt"
+file_name = "../스타벅스일일매출.txt"
 
 f = open(file_name, encoding="utf-8")
 for line in f:
@@ -10,7 +10,7 @@ for line in f:
 f.close()
 
 # 파일에서 읽은 문자열 데이터 처리하기.
-file_name = "스타벅스일일매출.txt"
+file_name = "../스타벅스일일매출.txt"
 
 f = open(file_name, encoding="utf-8")  # 파일 읽기
 header = f.readline()  # 데이터의 첫 번째 줄을 읽음
@@ -23,7 +23,7 @@ for line in f:  # 두 번째 줄부터 데이터를 읽어서 반복 처리
 f.close()  # 파일 닫기
 
 # 판매량 구하기.
-file_name = "스타벅스일일매출.txt"
+file_name = "../스타벅스일일매출.txt"
 
 f = open(file_name, encoding="utf-8")                 # 파일 읽기
 header = f.readline()               # 데이터의 첫 번째 줄을 읽음
